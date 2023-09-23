@@ -14,6 +14,9 @@ import Conditional from './components/Conditional';
 import Form from './components/Form';
 import LcmClassCom from './components/LcmClassCom';
 import LcmFunction from './components/LcmFunction';
+import StyleType from './components/StyleType';
+import ArrayList from './components/ArrayList';
+import ReuseComponent from './components/ReuseComponent';
 
 function App() {
   // function getData(){
@@ -46,11 +49,13 @@ function App() {
         {/* <HideShowElement /> */}
         {/* <Conditional /> */}
         {/* <Form /> */}
-
         {/* <LcmClassCom name={name}/>
         <button onClick={()=>setName('Islam')}> Update Name </button> */}
+        {/* <LcmFunction /> */}
+        {/* <StyleType /> */}
+        <ArrayList />
 
-        <LcmFunction />
+        
         
       </header>
 
