@@ -1,6 +1,7 @@
 import React from 'react'
 import { Table } from 'react-bootstrap'
 import ReuseComponent from '../components/ReuseComponent'
+import Fragment from './Fragment'
 
 export default function ArrayList() {
     const students = ['Mujahid', 'Islam', 'Subaha', 'Sadika ']
@@ -70,11 +71,7 @@ export default function ArrayList() {
             <Table striped bordered hover>
                 <tbody>
                     <tr >
-                        <td>SL</td>
-                        <td>Name</td>
-                        <td>Email</td>
-                        <td>Contact</td>
-                        <td>Address</td>
+                        <Fragment />  {/*  data come from Fragment in ArrayList.js*/}
                     </tr>
                 </tbody>
                 <tbody>

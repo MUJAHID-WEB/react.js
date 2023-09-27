@@ -6,7 +6,7 @@ export default function ReuseComponent(prop) {
     <div>
         
 
-      <span>{prop.data.name}</span>   {/*  data come from ReuseComponent */}
+      <span>{prop.data.name}</span>   {/*  data come from ReuseComponent in ArrayList.js*/}
 
       <span>{prop.data.email}</span>
 
