@@ -22,6 +22,9 @@ import UseMemo from './components/UseMemo';
 import Refuse from './components/RefInClass';
 import RefInFunc from './components/RefInFunc';
 import ForwardRef from './components/ForwardRef';
+import ControlledUncontrolled from './components/ControlledUncontrolled';
+import Hoc from './components/Hoc';
+import Routing from './components/Routing';
 
 function App() {
   //
@@ -66,8 +69,12 @@ function App() {
         {/* <ChildData alert={getData}/> */} 
         {/* <UseMemo /> */}
         {/* <Refuse /> */}
-        <RefInFunc />
-        <ForwardRef />
+        {/* <RefInFunc />
+        <ForwardRef /> */}
+        {/* <ControlledUncontrolled /> */}
+        {/* <Hoc /> */}
+
+        <Routing />
 
         
         
