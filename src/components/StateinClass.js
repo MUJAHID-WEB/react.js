@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { PureComponent } from 'react'
 
 // export default function State ( item ){
 //     return(
@@ -11,7 +11,7 @@ import React from 'react'
 //     )
 // }
 
-export default class State extends React.Component {
+export default class State extends PureComponent { // pureComponent stops rerendering if there is no updating
 
     constructor(){
         super();

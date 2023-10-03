@@ -17,11 +17,20 @@ import LcmFunction from './components/LcmFunction';
 import StyleType from './components/StyleType';
 import ArrayList from './components/ArrayList';
 import ReuseComponent from './components/ReuseComponent';
+import ChildData from './components/ChildData';
+import UseMemo from './components/UseMemo';
+import Refuse from './components/RefInClass';
+import RefInFunc from './components/RefInFunc';
+import ForwardRef from './components/ForwardRef';
 
 function App() {
-  // function getData(){
-  //   alert('Hello')
+  //
+  // function getData(data){
+  //   //alert(name) // grab the data from child by sending Func Name with props
+  //   console.log(data)
+  //   alert(data.email )
   // }
+  //
   const [name, setName] = React.useState('Mujahidul')
   return (
     <div className="App">
@@ -53,7 +62,12 @@ function App() {
         <button onClick={()=>setName('Islam')}> Update Name </button> */}
         {/* <LcmFunction /> */}
         {/* <StyleType /> */}
-        <ArrayList />
+        {/* <ArrayList /> */}
+        {/* <ChildData alert={getData}/> */} 
+        {/* <UseMemo /> */}
+        {/* <Refuse /> */}
+        <RefInFunc />
+        <ForwardRef />
 
         
         
