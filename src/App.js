@@ -24,7 +24,9 @@ import RefInFunc from './components/RefInFunc';
 import ForwardRef from './components/ForwardRef';
 import ControlledUncontrolled from './components/ControlledUncontrolled';
 import Hoc from './components/Hoc';
-import Routing from './components/Routing';
+import Routing from './components/Routing/Routing';
+import GetApi from './components/Api/GetApi';
+import PostApi from './components/Api/PostApi';
 
 function App() {
   //
@@ -74,7 +76,9 @@ function App() {
         {/* <ControlledUncontrolled /> */}
         {/* <Hoc /> */}
 
-        <Routing />
+        {/* <Routing /> */}
+        {/* <GetApi /> */}
+        <PostApi />
 
         
         
